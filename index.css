@@ -3,6 +3,13 @@
 
 @media screen and (max-width: 375px) {
     body {
+    background-color: #000;
+    overflow:hidden;
+    font-family: 'IranSansX';
+    }
+  }
+  @media screen and (min-width: 375px) {
+    body {
     background:url("https://gateway.moralisipfs.com/ipfs/QmVaZ6y8sNsMJWsKD3ZmgeRf2YTM4fJbBRniLqNVgxcFDm") center center;
     overflow:hidden;
     font-family: 'IranSansX';
