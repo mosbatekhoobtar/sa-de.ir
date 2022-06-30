@@ -3,14 +3,22 @@
 
 @media screen and (max-width: 375px) {
     body {
+    padding:0px;
+    margin:0px;
     background-color: #000;
+    width:100vw;
+    height:100vh;
     overflow:hidden;
     font-family: 'IranSansX';
     }
   }
   @media screen and (min-width: 375px) {
     body {
+    padding:0px;
+    margin:0px;
     background:url("https://gateway.moralisipfs.com/ipfs/QmVaZ6y8sNsMJWsKD3ZmgeRf2YTM4fJbBRniLqNVgxcFDm") center center;
+    width:100vw;
+    height:100vh;
     overflow:hidden;
     font-family: 'IranSansX';
     }
