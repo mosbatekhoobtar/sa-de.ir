@@ -10,9 +10,9 @@ body {
     overflow:hidden;
     font-family: 'IranSansX';
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 375px) {
     body {
-      background-color: lightgreen;
+      background:url("https://gateway.moralisipfs.com/ipfs/QmVaZ6y8sNsMJWsKD3ZmgeRf2YTM4fJbBRniLqNVgxcFDm") center center;
     }
   }
 #loading {
