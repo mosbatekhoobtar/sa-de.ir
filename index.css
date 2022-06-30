@@ -10,6 +10,11 @@ body {
     overflow:hidden;
     font-family: 'IranSansX';
 }
+@media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
 #loading {
     width: 100vw;
     height: 100vh;
