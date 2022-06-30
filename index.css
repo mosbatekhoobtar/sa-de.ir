@@ -1,18 +1,11 @@
 @import url(fontiran.css);
 
-body {
-    padding:0px;
-    margin:0px;
-    background:url("https://gateway.moralisipfs.com/ipfs/QmVaZ6y8sNsMJWsKD3ZmgeRf2YTM4fJbBRniLqNVgxcFDm") center center;
-    background-size:cover;
-    width:100vw;
-    height:100vh;
-    overflow:hidden;
-    font-family: 'IranSansX';
-}
+
 @media screen and (max-width: 375px) {
     body {
-      background:url("https://gateway.moralisipfs.com/ipfs/QmVaZ6y8sNsMJWsKD3ZmgeRf2YTM4fJbBRniLqNVgxcFDm") center center;
+    background:url("https://gateway.moralisipfs.com/ipfs/QmVaZ6y8sNsMJWsKD3ZmgeRf2YTM4fJbBRniLqNVgxcFDm") center center;
+    overflow:hidden;
+    font-family: 'IranSansX';
     }
   }
 #loading {
