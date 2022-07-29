@@ -228,7 +228,7 @@ body {
     direction:rtl;
     text-align:justify;
     font-family: 'IRanSanx', sans-serif;
-    color:#fff;
+    color:#010101;
     background:transparent;
     border:3px solid #fff;
     padding:8px 40px;
@@ -268,7 +268,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#010101;
     font-weight:bold;
 }
 .container form textarea {
@@ -283,7 +283,7 @@ body {
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#010101;
     font-weight:bold;
 }
 .container form input:focus {
@@ -298,7 +298,7 @@ body {
     color:#fff;
 }
 #footer {
-    color:#fff;
+    color:#010101;
     width:92vw;
     padding:5vh 4vw;
     text-align:right;
