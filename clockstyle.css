@@ -250,7 +250,7 @@ html {
   transform: translateY(-50%);
   color: #fff;
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'IranSansX';
   padding: 2px 20px;
   box-shadow: 0 0 15px #000 inset;
@@ -263,9 +263,9 @@ html {
   transform: translateY(-50%);
   color: rgb(255, 255, 255);
   border-radius: 10px;
-  font-size: 9px;
+  font-size: 12px;
   font-family: 'IranSansX';
-  padding: 5px 5px;
+  padding: 2px 2px;
   box-shadow: 0 0 15px #000 inset;
 }
 .clock-container .clock-digital .O {
