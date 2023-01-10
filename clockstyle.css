@@ -245,11 +245,10 @@ html {
 .clock-container .clock-digital .is {
   background: #111;
   position: absolute;
-  right: -60px;
+  right: -58px;
   top: 50%;
   transform: translateY(-50%);
   color: #fff;
-  border-radius: 50px;
   font-size: 12px;
   font-family: 'IranSansX';
   padding: 2px 20px;
@@ -262,7 +261,6 @@ html {
   top: 50%;
   transform: translateY(-50%);
   color: rgb(255, 255, 255);
-  border-radius: 50px;
   font-size: 12px;
   font-family: 'IranSansX';
   padding: 2px 2px;
