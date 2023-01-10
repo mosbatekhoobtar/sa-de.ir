@@ -5,6 +5,7 @@
 }
 
 html {
+  transform: scale(0.8);
   background: #222;
   overflow: hidden;
   font-family: 'BenchNine', sans-serif;
@@ -14,7 +15,7 @@ html {
   position: fixed;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 35%);
   width: 480px;
   height: 480px;
   border-radius: 50%;
@@ -257,7 +258,7 @@ html {
 .clock-container .clock-digital .I {
   background: #000000;
   position: absolute;
-  right: -123px;
+  right: -85px;
   top: 50%;
   transform: translateY(-50%);
   color: rgb(255, 255, 255);
