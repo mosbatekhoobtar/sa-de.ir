@@ -256,17 +256,16 @@ html {
   box-shadow: 0 0 15px #000 inset;
 }
 .clock-container .clock-digital .I {
-  background: #000000;
+  background: blue;
   position: absolute;
   right: -85px;
   top: 50%;
   transform: translateY(-50%);
   color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 12px;
   font-family: 'IranSansX';
   padding: 2px 2px;
-  box-shadow: 0 0 15px #000 inset;
 }
 .clock-container .clock-digital .O {
   background: #111;
