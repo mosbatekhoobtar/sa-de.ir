@@ -99,7 +99,7 @@ html {
 }
 .clock-container .clock-analog .hour {
   z-index: 150;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 800;
 }
 .clock-container .clock-analog .hour span:after {
