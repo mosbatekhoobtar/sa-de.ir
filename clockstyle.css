@@ -5,7 +5,7 @@
 }
 
 html {
-  transform: scale(0.8);
+  transform: scale(0.75);
   background: #000;
   overflow: hidden;
   font-family: 'IranSansX', sans-serif;
@@ -131,7 +131,7 @@ html {
 }
 .clock-container .clock-analog .minute:after {
   content: '';
-  background: #333;
+  background: blue;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -139,7 +139,7 @@ html {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  box-shadow: 0 0 25px 2px #000 inset;
+  box-shadow: 0 0 25px 2px #222 inset;
 }
 .clock-container .clock-analog .second {
   font-size: 12px;
