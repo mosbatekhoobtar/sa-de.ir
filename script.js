@@ -1,10 +1,11 @@
 (function() {
 
   
-  var months = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
+  var months = ["ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن",
+  "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"
 ],
-days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+days = ['از دو روز بعد، چی  چند است!؟', ' از فردا، چی  چند است!؟', 'تا سه‌ روز بعد، چی  چند است!؟', 'تا پس‌فردا چی،  چند است!؟', 'تا فردا، چی  چند است!؟', 'امروز که هیچی!؟', 'از سه روز بعد، چی  چند است!؟'];
+
   
 	function getTime() {
     
