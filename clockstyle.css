@@ -70,7 +70,7 @@ html {
   bottom: 0;
   margin: auto;
   z-index: 100;
-  transition: 0.2s 0.2s ease-in;
+  transition: 0.1s 0.5s ease-in;
   transform: rotate(90deg);
 }
 .clock-container .clock-analog .second span, .clock-container .clock-analog .minute span, .clock-container .clock-analog .hour span {
@@ -85,7 +85,7 @@ html {
 .clock-container .clock-analog .second span:after, .clock-container .clock-analog .minute span:after, .clock-container .clock-analog .hour span:after {
   content: '';
   width: 4px;
-  height: 1px;
+  height: 2px;
   background: #000;
   position: absolute;
   left: 130%;
@@ -99,8 +99,10 @@ html {
 }
 .clock-container .clock-analog .hour {
   z-index: 150;
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 30px;
+  color: blue;
+  font-weight: 400;
+  font-family: IranSans;
 }
 .clock-container .clock-analog .hour span:after {
   opacity: 1;
@@ -191,7 +193,7 @@ html {
   z-index: 200;
   height: 444px;
   width: 224px;
-  background: #000;
+  background: rgb(0, 0, 0);
   left: 18px;
   top: 18px;
   border-radius: 220px 0 0 220px;
@@ -206,18 +208,18 @@ html {
   width: 200px;
   border-radius: 220px 0 0 220px;
   left: 25px;
-  top: 21px;
+  top: 21.5px;
 }
 .clock-container .clock-digital .time {
   background: blue;
   position: absolute;
-  right: -60px;
+  right: -79px;
   top: 233px;
   color: #fff;
   font-size: 12px;
-  padding: 2px 12px;
+  padding: 2px 18px;
 }
-.clock-container .clock-digital .is {
+.clock-container .clock-digital .day {
   background: #000;
   position: absolute;
   right: 0px;
@@ -231,15 +233,15 @@ html {
 .clock-container .clock-digital .date {
   background: blue;
   position: absolute;
-  right: -60px;
+  right: -79px;
   top: 211px;
   color: #fff;
   font-size: 12px;
   padding: 2px 8px;
 }
-.clock-container .clock-digital .day {
+.clock-container .clock-digital .is {
   background: #000;
-  position: absolute;
+direction: rtl;  position: absolute;
   right: -0px;
   top: 50%;
   transform: translateY(-50%);
@@ -260,19 +262,6 @@ html {
   padding: 2px 4px;
 }
 .clock-container .clock-digital .O {
-  background: #000;
-  position: absolute;
-  right: -60px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #fff;
-  border-radius: 50px;
-  font-size: 14px;
-  font-family: 'IranSansX';
-  padding: 2px 20px;
-  box-shadow: 0 0 15px #000 inset;
-}
-.clock-container .clock-digital .if {
   background: #000;
   position: absolute;
   right: -60px;

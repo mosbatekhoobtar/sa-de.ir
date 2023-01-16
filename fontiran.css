@@ -35,5 +35,11 @@ This set of fonts are used in this project under the license: (.....)
 	src: url('fonts/woff/IRANSansX-Regular.woff') format('woff'),   
 	url('fonts/woff2/IRANSansX-Regular.woff2') format('woff2');	
 }
-
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/woff/IRANSans(FaNum)-Bold.woff') format('woff'),   
+	url('fonts/woff/IRANSans(FaNum)-Bold.woff') format('woff2');	
+}
 
