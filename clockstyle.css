@@ -70,7 +70,7 @@ html {
   bottom: 0;
   margin: auto;
   z-index: 100;
-  transition: 0.1s 0.5s ease-in;
+  transition: 0.2s 0.2s ease-in;
   transform: rotate(90deg);
 }
 .clock-container .clock-analog .second span, .clock-container .clock-analog .minute span, .clock-container .clock-analog .hour span {
