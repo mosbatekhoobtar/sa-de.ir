@@ -211,13 +211,13 @@ html {
   top: 21.5px;
 }
 .clock-container .clock-digital .time {
-  background: blue;
+  background: rgb(0, 0, 0);
   position: absolute;
-  right: -79px;
-  top: 233px;
+  right: 0px;
+  top: 167px;
   color: #fff;
   font-size: 12px;
-  padding: 2px 18px;
+  padding: 2px 22px;
 }
 .clock-container .clock-digital .day {
   background: #000;
@@ -233,8 +233,8 @@ html {
 .clock-container .clock-digital .date {
   background: blue;
   position: absolute;
-  right: -79px;
-  top: 211px;
+  right: 0px;
+  top: 189px;
   color: #fff;
   font-size: 12px;
   padding: 2px 8px;
@@ -243,7 +243,7 @@ html {
   background: #000;
 direction: rtl;  position: absolute;
   right: -0px;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
   color: #fff;
   font-size: 12px;
@@ -253,13 +253,13 @@ direction: rtl;  position: absolute;
 .clock-container .clock-digital .I {
   background: blue;
   position: absolute;
-  right: -85px;
+  right: 0px;
   top: 50%;
   transform: translateY(-50%);
   color: rgb(255, 255, 255);
   font-size: 12px;
   font-family: 'IranSansX';
-  padding: 2px 4px;
+  padding: 2px 6px;
 }
 .clock-container .clock-digital .O {
   background: #000;
