@@ -2,10 +2,10 @@
 (function() {
 
 
-  var months = ["در دلِ سرما", "در شوقِ ابرها", "در پسِ سرما", "در ریشه بهار", "در آسمانِ ابری", "در پیشِ گرما",
-  "در طاق تابستان", "در جشنِ گرما", "در طلای برگها", "در شوق برف‌ها", "از پس دردها", "در پیش سرما"
+  var months = ["DRDLSRMA", "DRABRFRDA", "DRPSSRDA", "DRTZBRFA", "DRASMNABRI", "DRPSHKRMA",
+  "DRTGHTBSTN", "DRJSHNKRMA", "DRBRGZRDA", "DRYDBRFA", "ZPSDRDA", "DRPSHSRMA"
 ],
-days = ['.نظم برای واقعی‌ات است', '.ساده برای واقعی‌ات است', '.آدم برای واقعی‌ات است', '.احترام برای واقعی‌ات است', '.صلح برای واقعی‌ات است', '.رفاه برای واقعی‌ات است', '.لذت برای واقعی‌ات است'];
+days = ['AHDMN', 'MHDMN', 'YKMN', 'ZNDMN', '3KRDMN', 'CHRTMN', 'LZTMN'];
 
   
 	function getTime() {
@@ -14,7 +14,7 @@ days = ['.نظم برای واقعی‌ات است', '.ساده برای واق�
     second  = date.getSeconds() ,
     minute  = date.getMinutes() ,
     hour    = date.getHours() ,
-    time = date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true }),
+    time = date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', second: 'numeric', hour12: true }),
      day =  date.getDay() ,
     month = date.getMonth() ,
     date = date.getDate() +' . '+ months[month],
