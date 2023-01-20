@@ -99,7 +99,7 @@ html {
 }
 .clock-container .clock-analog .hour {
   z-index: 150;
-  font-size: 33px;
+  font-size: 43px;
   color: blue;
   font-weight: 400;
   font-family: IranSans;
@@ -125,7 +125,7 @@ html {
 }
 .clock-container .clock-analog .minute {
   color: #fff;
-  font-size: 33px;
+  font-size: 37px;
   font-family: IranSans;
 
 }
@@ -146,7 +146,7 @@ html {
   box-shadow: 0 0 25px 2px #222 inset;
 }
 .clock-container .clock-analog .second {
-  font-size: 29px;
+  font-size: 38px;
   font-family: IranSans;
 }
 .clock-container .clock-analog .second span:after {
@@ -217,7 +217,7 @@ html {
   background: rgb(0, 0, 0);
   position: absolute;
   right: 0px;
-  top: 167px;
+  top: 160px;
   color: #fff;
   font-size: 12px;
   padding: 2px 12px;
@@ -226,27 +226,28 @@ html {
   background: #000;
   position: absolute;
   right: 0px;
-  top: 56%;
+  top: 54%;
   transform: translateY(-50%);
   color: #fff;
   font-size: 12px;
   font-family: 'IranSansX';
-  padding: 2px 8px;
+  padding: 2px 10px;
 }
 .clock-container .clock-digital .date {
   background: blue;
   position: absolute;
   right: 0px;
-  top: 189px;
+  top: 185px;
   color: #fff;
   font-size: 12px;
   padding: 2px 8px;
 }
 .clock-container .clock-digital .is {
   background: #000;
-direction: rtl;  position: absolute;
-  right: -0px;
-  top: 60%;
+  direction: rtl;
+  position: absolute;
+  right: 0px;
+  top: 50%;
   transform: translateY(-50%);
   color: #fff;
   font-size: 12px;
@@ -256,7 +257,7 @@ direction: rtl;  position: absolute;
 .clock-container .clock-digital .I {
   background: blue;
   position: absolute;
-  right: 0px;
+  right: -43px;
   top: 50%;
   transform: translateY(-50%);
   color: rgb(255, 255, 255);
