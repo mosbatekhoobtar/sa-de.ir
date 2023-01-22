@@ -5,7 +5,7 @@
   var months = ["SOU1", "SOU2", "SOU3", "NIRO1", "NIRO2", "NIRO3",
   "KARA1", "KARA2", "KARA3", "BON1", "BON2", "BON3"
 ],
-days = ['از فردا چی!؟', 'از امروز چی!؟', 'تا سه روز دیگه چی!؟', 'تا دو روز دیگه چی!؟', 'تا فردا چی!؟', 'تا امروز چی؟', 'از دو روز بعد چی!؟'];
+days = ['Discipline', 'Satisfaction', 'Benefit', 'Respect', 'Honor', 'Enthusiasm', '!'];
 
   
 	function getTime() {
