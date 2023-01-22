@@ -99,7 +99,7 @@ html {
 }
 .clock-container .clock-analog .hour {
   z-index: 150;
-  font-size: 43px;
+  font-size: 83px;
   color: blue;
   font-weight: 400;
   font-family: IranSans;
@@ -125,7 +125,7 @@ html {
 }
 .clock-container .clock-analog .minute {
   color: #fff;
-  font-size: 37px;
+  font-size: 77px;
   font-family: IranSans;
 
 }
@@ -146,7 +146,7 @@ html {
   box-shadow: 0 0 25px 2px #222 inset;
 }
 .clock-container .clock-analog .second {
-  font-size: 38px;
+  font-size: 68px;
   font-family: IranSans;
 }
 .clock-container .clock-analog .second span:after {
