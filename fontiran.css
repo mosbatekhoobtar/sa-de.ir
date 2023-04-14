@@ -1,45 +1,19 @@
-/**
-*
-*	Name:			IRANSansX Fonts
-*	Version:			2.0
-*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
-*	Created on:		June 22, 2021
-*	Updated on:		June 22, 2021
-*	Website:			http://fontiran.com
-*	Copyright:		Commercial/Proprietary Software
---------------------------------------------------------------------------------------
-فونتایران سنس Xا یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
---------------------------------------------------------------------------------------
-IRANSansX fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
---------------------------------------------------------------------------------------
-This set of fonts are used in this project under the license: (.....)
-------------------------------------------------------------------------------------- fonts/-
-*	
-**/
-
 
 
 
 @font-face {
-	font-family: IRANSansX;
+	font-family: SamCafe;
 	font-style: normal;
 	font-weight: 700;
-	src: url('fonts/woff/IRANSansX-Bold.woff') format('woff'),   
-	url('fonts/woff2/IRANSansX-Bold.woff2') format('woff2');	 
+	src: url('fonts/woff/SamCafe-Regular.woff') format('woff'),   
+	url('fonts/woff2/SamCafe-Regular.woff2') format('woff2');	 
 }
 
 @font-face {
-	font-family: IRANSansX;
-	font-style: normal;
+	font-family: SamCafe;
+	font-style: Bold;
 	font-weight: 400;
-	src: url('fonts/woff/IRANSansX-Regular.woff') format('woff'),   
-	url('fonts/woff2/IRANSansX-Regular.woff2') format('woff2');	
-}
-@font-face {
-	font-family: IRANSans;
-	font-style: normal;
-	font-weight: 800;
-	src: url('fonts/woff/IRANSans(FaNum)-Bold.woff') format('woff'),   
-	url('fonts/woff/IRANSans(FaNum)-Bold.woff') format('woff2');	
+	src: url('fonts/woff/SamCafe-Bold.woff') format('woff'),   
+	url('fonts/woff2/SamCafe-Bold.woff2') format('woff2');	
 }
 
